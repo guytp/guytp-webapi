@@ -1,0 +1,29 @@
+﻿{
+  "Guytp.WebApi": {
+    "Api": {
+      "Version": 1,
+      "IsCorsAllowingAll": true,
+      "IsEnumSerialisedAsString": true,
+      "BindingUri": "http://+:50000",
+    },
+    "JwtAuth": {
+      "IsMiddlewareEnabled": true,
+      "Issuer": "urn:com.lts-api.sso",
+      "Audience": "urn:com.lts-api",
+      "CertificateData":  "MIIDGjCCAgagAwIBAgIQUPI1uZkbFb9ELU2rhWfEFzAJBgUrDgMCHQUAMBoxGDAWBgNVBAMTD3Nzby5sdHMtYXBpLmNvbTAeFw0xNjA3MTIxNDU3NTlaFw0zOTEyMzEyMzU5NTlaMBoxGDAWBgNVBAMTD3Nzby5sdHMtYXBpLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMG7rLC+tA17BZd9FyfSvr4AQqVI8k9WxrUzQ3TT86OgB40YY+/CuILxg84GAjHiATujgiCEA2qh2wYY7pR3d1P3I4kAd2gOp+Vx8et/UqXH5wcaC8mTUjMyaWZmJK4bAaCY6IRNna9rH95uXsNwityP/jUl1Ew0LoSNrxqNPMAmsVNpOT0ZHn93KL6qCG1adX1BbxQeYQez9MU7/TYdOnEVmIjuMUX1gP6HQe+8lzPIcvR96LR1nociH2wPf+uPIMLrALAt5E5Yf1mS0LDl/MZvmc/7hAWxMh7Vyjm2UE6pZHvHZE+cpkCJL0CgyRoBJ1QS2odwSoU1redFkL+H1Z8CAwEAAaNkMGIwEwYDVR0lBAwwCgYIKwYBBQUHAwMwSwYDVR0BBEQwQoAQhKDsDGPWULjHHu/A8cIO56EcMBoxGDAWBgNVBAMTD3Nzby5sdHMtYXBpLmNvbYIQUPI1uZkbFb9ELU2rhWfEFzAJBgUrDgMCHQUAA4IBAQBvkBZXgWt0gYkRv3JIaUtnUtLqu1omTe/izyxLzNBDIxFmlSA8JwXGt3bwIikXw/nuMto8YnLrKJy676UmkvGMO9cjmZgWv/IhoClJpAUy9Mw+lQ6ZCbIvqgTd1bQI4Bp5vTNTv9cH2zT4O+fIjVukZKKGpCr3Qmx1BLbQ+bn/RG2Ai0Q3tIjkkqW5wtn82I1uYQMCW2/puNhcgS4YCKobdc+JBw8CKZpOR5m3/3lWXKE3NVO8ynLpQ6sTOMupf2uOL09tWs/xXja3oOg+4UF3XswhcZkRhazJBbtTz0AVlVrHhAO0Ekyh16Rcf5VyE1Ug9dcZ6Ot8quVD/hdMpNtO"
+    },
+    "Swagger": {
+      "IsEnabled": true,
+      "OverrideRootUrl": null,
+      "IsUiEnabled": true,
+      "SwaggerRoute": "_md/docs",
+      "SwaggerUiRoute": "_md"
+    },
+    "ExceptionHandling": {
+      "IsMiddlewareEnabled": true,
+      "IsStackTraceIncluded": true,
+      "IsLoggingEnabled": true,
+      "LogLevel": "Error"
+    }
+  }
+}
