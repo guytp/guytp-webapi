@@ -30,6 +30,12 @@
         /// Gets or sets the Swagger UI route, relative to the API's base.
         /// </summary>
         public string SwaggerUiRoute { get; set; }
+
+        public string Host { get; set; }
+
+        public string BasePath { get; set; }
+
+        public string Scheme { get; set; }
         #endregion
 
         public SwaggerSettings()
@@ -38,6 +44,9 @@
             IsUiEnabled = true;
             SwaggerRoute = "_md/docs";
             SwaggerUiRoute = "_md";
+            //Host = "localhost";
+            //BasePath = "/";
+            //Scheme = "https";
         }
     }
 }

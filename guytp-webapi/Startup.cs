@@ -82,6 +82,7 @@ namespace Guytp.WebApi
             if (swaggerConfig != null && swaggerConfig.IsEnabled)
                 services.AddSwaggerGen(c =>
                 {
+                    c.DocumentFilter<SwaggerDocumentFilter>();
                     c.OperationFilter<AuthResponsesOperationFilter>();
                     c.OperationFilter<AddAuthorizationHeaderParameterOperationFilter>();
                     c.EnableAnnotations();

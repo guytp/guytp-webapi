@@ -4,7 +4,7 @@
       "Version": 1,
       "IsCorsAllowingAll": true,
       "IsEnumSerialisedAsString": true,
-      "BindingUri": "http://+:50000",
+      "BindingUri": "http://+:50000"
     },
     "JwtAuth": {
       "IsMiddlewareEnabled": true,
@@ -17,7 +17,10 @@
       "OverrideRootUrl": null,
       "IsUiEnabled": true,
       "SwaggerRoute": "_md/docs",
-      "SwaggerUiRoute": "_md"
+      "SwaggerUiRoute": "_md",
+      "BasePath": "/test",
+      "Host": "some.test.com",
+      "Scheme": "https"
     },
     "ExceptionHandling": {
       "IsMiddlewareEnabled": true,
